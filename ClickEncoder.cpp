@@ -112,7 +112,7 @@ AnalogButton::AnalogButton(int8_t BTN, int16_t rangeLow, int16_t rangeHigh) : Cl
 // ----------------------------------------------------------------------------
 // call this every 1 millisecond via timer ISR
 //
-void ICACHE_RAM_ATTR ClickEncoder::service(void)
+void ClickEncoder::service(void)
 {
   bool moved = false;
 
